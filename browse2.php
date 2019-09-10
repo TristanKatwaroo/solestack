@@ -3,7 +3,7 @@
 ?>
 
             <!-- Banner -->
-            <section id="banner">
+            <section id="banner2">
 			<div class="content">
                 <div id="main" class="wrapper style1">
 
