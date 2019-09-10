@@ -1,0 +1,135 @@
+﻿<?php
+	include 'header.php';
+?>
+
+
+
+<!-- Main -->
+<div id="main" class="wrapper style1">
+
+    <div class="container">
+        <form method="POST" action="includes/signup.inc.php">
+            <div class="row gtr-uniform gtr-50">
+                <div class="col-8 col-12-xsmall">
+                    <?php
+                    if (isset($_GET['first'])) {
+                    $first = $_GET['first'];
+                    echo '<input type="text" name="first" placeholder="Firstname" value="'.$first.'">';
+                    }
+                    else {
+                    echo '<input type="text" name="first" placeholder="Firstname">';
+                    }
+                    ?>
+                </div>
+                <div class="col-8 col-12-xsmall">
+                    <?php
+                    if (isset($_GET['last'])) {
+                    $last = $_GET['last'];
+                    echo '<input type="text" name="last" placeholder="Lastname" value="'.$last.'">';
+                    }
+                    else {
+                    echo '<input type="text" name="last" placeholder="Lastname">';
+                    }
+                    ?>
+                </div>
+                <div class="col-8 col-12-xsmall">
+                    <input type="text" name="email" placeholder="Email">
+                </div>
+                <div class="col-8 col-12-xsmall">
+                    <?php
+                    if (isset($_GET['uid'])) {
+                    $uid = $_GET['uid'];
+                    echo '<input type="text" name="uid" placeholder="Username" value="'.$uid.'">';
+                    }
+                    else {
+                    echo '<input type="text" name="uid" placeholder="Username">';
+                    }
+                    ?>
+                </div>
+                <div class="col-8 col-12-xsmall">
+                    <input type="password" name="pwd" placeholder="Password">
+                </div>
+                <div class="col-8 col-12-xsmall">
+                    <li><button type="submit" name="submit">Sign Up</button></li>
+                </div>
+
+            </div>
+        </form>
+        <!-- Scripts -->
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/jquery.scrolly.min.js"></script>
+        <script src="assets/js/jquery.dropotron.min.js"></script>
+        <script src="assets/js/jquery.scrollex.min.js"></script>
+        <script src="assets/js/browser.min.js"></script>
+        <script src="assets/js/breakpoints.min.js"></script>
+        <script src="assets/js/util.js"></script>
+        <script src="assets/js/main.js"></script>
+        <?php
+        /*$fullUrl = "http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
+
+        if (strpos($fullUrl, "signup=empty") == true) {
+        echo "Fill in all fields to continue.";
+
+        }
+        elseif (strpos($fullUrl, "signup=char") == true) {
+        echo "Please use valid characters.";
+
+        }
+        elseif (strpos($fullUrl, "signup=email") == true) {
+        echo "Please use valid email.";
+
+        }
+        elseif (strpos($fullUrl, "signup=success") == true) {
+        echo "Sign up complete.";
+
+        }*/
+
+        if (!isset($_GET['signup'])) {
+
+        }
+        else {
+        $signupCheck = $_GET['signup'];
+
+        if ($signupCheck == "empty") {
+        echo "Fill in all fields to continue.";
+        }
+        elseif ($signupCheck == "char") {
+        echo "Please use valid characters.";
+        }
+        elseif ($signupCheck == "email") {
+        echo "Please use valid email.";
+        }
+        elseif ($signupCheck == "success") {
+        echo "Sign up complete.";
+        }
+        }
+
+        ?>
+
+
+
+    </div>
+</div>
+
+<!-- Footer -->
+<footer id="footer">
+    <ul class="icons">
+        <li><a href="https://www.twitter.com/StackSole" target="_blank" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
+        <li><a href="https://www.facebook.com/Solestack-111085500270673/" target="_blank" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
+        <li><a href="https://www.instagram.com/solestack/" target="_blank" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
+        <li><a href="#" class="icon solid alt fa-envelope"><span class="label">Email</span></a></li>
+    </ul>
+    <ul class="copyright">
+        <li>&copy; 2019 SoleStack. All Rights Reserved.</li>
+        <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+    </ul>
+</footer>
+
+        </div>
+
+
+
+
+	</body>
+
+</html>

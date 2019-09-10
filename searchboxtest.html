@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Expandable Search Box</title>
+	<link rel="stylesheet" href="style.css" />
+	<script src="https://kit.fontawesome.com/8c691d8c8b.js"></script>
+	<script src="http://code.jquery.com/jquery-3.4.1.min.js"></script>
+	<script>
+		$(document).ready(function(){
+			$(".searchbtn").click(function(){
+				$(this).toggleClass("bg-green");
+				$(".fas").toggleClass("color-white");
+				$(".input").focus().toggleClass("active-width").val('');
+			});
+		});
+	</script>
+
+</head>
+
+<body>
+
+
+<div class="wrapper">
+  <div class="searchbox">
+    <input type="text" class="input">
+      
+    <div class="searchbtn">
+      <i class="fas fa-search"></i>
+    </div>
+    
+  </div>
+</div>
+</body>
+</html>
