@@ -2,11 +2,10 @@
 	include 'header.php';
 ?>
 
-
-			
-            <!-- Main -->
-
-            <div id="main" class="wrapper style1">
+            <!-- Banner -->
+            <section id="banner2">
+			<div class="content">
+                <div id="main" class="wrapper style1">
 
                 <div class="container">
 					<section>
@@ -48,9 +47,11 @@
 							</div>
 						</form>
 					</section>
+				</div>
+				</div>
 			</div>
-		
-            
+            </section>
+
 <?php
 	include 'footer.php';
-?>   
+?>            
