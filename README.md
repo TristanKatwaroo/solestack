@@ -4,13 +4,14 @@ A network that connects buyers and sellers of hyped products around the world.
 
 ## Features
 
-(https://www.solestack.com)
+https://www.solestack.com
 
 ### Development Features
 
 - Extensive login system with unique user sessions
 - Login data gets stored in a database
 - Browse our catalog of products saved within a database
+- Use of location services to source vendors
 
 ### User Features
 
