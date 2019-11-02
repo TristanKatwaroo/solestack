@@ -51,7 +51,7 @@
 
             <!-- Two -->
             <section id="two" class="spotlight style2 right">
-                <span class="image fit main"><img src="images/banner06.png" alt="" /></span>
+                <span class="image fit main"><img src="images/banner03.png" alt="" /></span>
                 <div class="content">
                     <header>
                         <h2>Join our referral program</h2>
@@ -66,54 +66,7 @@
             </section>
 
             
-            <!-- Four -->
-            <section id="four" class="wrapper style1 special fade-up">
-                <div class="container">
-                    <header class="major">
-                        <h2>Why use Solestack?</h2>
-                        <p>Solestack is the world's first classifieds service for sneakers and streetwear.</p>
-                    </header>
-                    <div class="box alt">
-                        <div class="row gtr-uniform">
-                            <section class="col-4 col-6-medium col-12-xsmall">
-                                <span class="icon solid alt major fa-chart-area"></span>
-                                <h3>Increase Profit Margins</h3>
-                                <p>Eliminate unnecessary expenses like shipping fees, import fees, and duty fees. We also do not charge any transaction or processing fees!</p>
-                            </section>
-                            <section class="col-4 col-6-medium col-12-xsmall">
-                                <span class="icon solid alt major fa-comment"></span>
-                                <h3>A Platform for Exposure</h3>
-                                <p>Get yourself known in the reseller community. Solestack is a way to get your products into your local market without being required to do any additional outreach.</p>
-                            </section>
-                            <section class="col-4 col-6-medium col-12-xsmall">
-                                <span class="icon solid alt major fa-flask"></span>
-                                <h3>Seamless Authentication Process</h3>
-                                <p>Vendors can upload images of their products to be verified by our experts, all through their phones!</p>
-                            </section>
-                            <section class="col-4 col-6-medium col-12-xsmall">
-                                <span class="icon solid alt major fa-paper-plane"></span>
-                                <h3>No Shipping Time</h3>
-                                <p>Never again will you have to wait in suspense for your product to arrive. All business is done in person.</p>
-                            </section>
-                            <section class="col-4 col-6-medium col-12-xsmall">
-                                <span class="icon solid alt major fa-file"></span>
-                                <h3>Build Your Credibility</h3>
-                                <p>Customers can give vendors a rating after doing business. Vendors with high ratings will receive more traffic, and vendors with lower ratings risk having their accounts suspended.</p>
-                            </section>
-                            <section class="col-4 col-6-medium col-12-xsmall">
-                                <span class="icon solid alt major fa-lock"></span>
-                                <h3>Secure Transactions</h3>
-                                <p>Make product payments in the Solestack app. We hold the payment until the product is confirmed to be delivered by both parties.</p>
-                            </section>
-                        </div>
-                    </div>
-                    <footer class="major">
-                        <ul class="actions special">
-                            <li><a href="#" class="button">Sign up now</a></li>
-                        </ul>
-                    </footer>
-                </div>
-            </section>
+          
 
             
 <?php
