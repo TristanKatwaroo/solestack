@@ -45,7 +45,7 @@
 							<input type="text" name="search" placeholder="Search">
 							<button type="submit" name="submit-search" class="button fit small">Go</button></form></li>-->
                         <li><a href="browse.php">Browse</a></li>
-                        <li><a href="about.html">About</a></li>
+                        <li><a href="about.php">About</a></li>
                         <li><a href="faq.html">FAQ</a></li>
                         <!--<li><a href="login.php">Login</a></li>-->
 						

@@ -26,7 +26,7 @@
 										$sql = "SELECT * FROM catalog WHERE c_name LIKE '%$search%' OR c_brand LIKE '%$search%'";
 										$result = mysqli_query($conn, $sql);
 										$queryResults = mysqli_num_rows($result);
-
+											
 										echo "".$queryResults." results found.";
 
 										if ($queryResults > 0) {
